@@ -4,4 +4,7 @@
         "-header-insertion=never",
     ],
     "files.eol": "\n",
+    "lldb.showDisassembly": "auto",
+    "lldb.dereferencePointers": true,
+    "lldb.consoleMode": "commands",
 }

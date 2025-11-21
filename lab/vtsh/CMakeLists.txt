@@ -9,5 +9,13 @@ project(
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
+# перед сдачей удалить 2 санитайзера!
+# add_compile_options(
+#     -fsanitize=adress
+# )
+# add_link_options(
+#     -fsanitize=adress
+# )
+
 add_subdirectory(bin)
 add_subdirectory(lib)
