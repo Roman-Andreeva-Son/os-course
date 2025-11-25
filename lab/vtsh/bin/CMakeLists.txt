@@ -1,12 +1,14 @@
 add_executable(
     vtsh
     main.c
+    shell.c
 )
 
 target_include_directories(
     vtsh
     PUBLIC
     .
+    ${CMAKE_SOURCE_DIR}/lib
 )
 
 target_link_libraries(
